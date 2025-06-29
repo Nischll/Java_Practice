@@ -1,0 +1,2 @@
+Hello, File Handling. 
+Writing data to a file is simple. 
