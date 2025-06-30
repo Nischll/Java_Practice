@@ -383,13 +383,19 @@ public class Main {
 
         LoginCredentialService loginService = new LoginCredentialService();
 
-        loginService.registerLogin("nischal", "Admin@123");
-        loginService.registerLogin("kaley", "Kaley@123");
-        loginService.registerLogin("kaji", "Kaji@123");
-        loginService.registerLogin("fuchey", "Fuchey@123");
+//        loginService.registerLogin("nischal", "Admin@123");
+//        loginService.registerLogin("kaley", "Kaley@123");
+//        loginService.registerLogin("kaji", "Kaji@123");
+//        loginService.registerLogin("Sanjay", "Sanjay@123");
+//        loginService.registerLogin("Karan", "Karan@123");
+//        loginService.registerLogin("Amit", "Amit@123");
 
+//        loginService.updateUser(5, "Kaley", "Kaley@123");
+//        loginService.updateUser(2, "Gorey", "Gorey@123");
+//        loginService.DeleteUser(3);
         System.out.println("\nAll users:");
         loginService.listAllUsers();
-
+//        loginService.GetUserById(2);
+        loginService.GetUserByUsername("nischal");
     }
 }
